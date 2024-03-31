@@ -1,0 +1,9 @@
+﻿CMAKE_MINIMUM_REQUIRED( VERSION 3.8 )
+
+procjet(
+   lab7one
+   VERSION 0.1
+  DESCRIPTION "lab7one"
+  LANGUAGES CXX)
+
+add_executable(lab7one main.cpp print.cpp)

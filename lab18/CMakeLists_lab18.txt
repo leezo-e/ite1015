@@ -1,0 +1,9 @@
+﻿CMAKE_MINIMUM_REQUIRED( VERSION 3.8 )
+
+procjet(
+   lab18
+  VERSION 0.1
+  DESCRIPTION "lab18"
+  LANGUAGES CXX)
+
+add_executable(lab18 main.cpp list.h)

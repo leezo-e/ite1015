@@ -1,0 +1,9 @@
+﻿CMAKE_MINIMUM_REQUIRED( VERSION 3.8 )
+
+procjet(
+   lab17_2
+  VERSION 0.1
+  DESCRIPTION "lab17_2"
+  LANGUAGES CXX)
+
+add_executable(lab17_2 main.cpp my_container.h)

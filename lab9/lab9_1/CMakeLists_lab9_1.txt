@@ -1,0 +1,9 @@
+﻿CMAKE_MINIMUM_REQUIRED( VERSION 3.8 )
+
+procjet(
+   lab9_1
+   VERSION 0.1
+  DESCRIPTION "lab9_1"
+  LANGUAGES CXX)
+
+add_executable(lab9_1 main.cpp number.cpp number.h)

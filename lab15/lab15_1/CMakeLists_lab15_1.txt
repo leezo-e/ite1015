@@ -1,0 +1,9 @@
+﻿CMAKE_MINIMUM_REQUIRED( VERSION 3.8 )
+
+procjet(
+   lab15_1
+  VERSION 0.1
+  DESCRIPTION "lab15_1"
+  LANGUAGES CXX)
+
+add_executable(lab15_1 main.cpp my_string.cpp my_string.h)

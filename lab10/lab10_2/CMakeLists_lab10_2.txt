@@ -1,0 +1,9 @@
+﻿CMAKE_MINIMUM_REQUIRED( VERSION 3.8 )
+
+procjet(
+   lab10_2
+  VERSION 0.1
+  DESCRIPTION "lab10_2"
+  LANGUAGES CXX)
+
+add_executable(lab10_2 main.cpp intset.cpp intset.h)

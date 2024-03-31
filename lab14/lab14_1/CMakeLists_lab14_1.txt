@@ -1,0 +1,9 @@
+﻿CMAKE_MINIMUM_REQUIRED( VERSION 3.8 )
+
+procjet(
+   lab14_1
+  VERSION 0.1
+  DESCRIPTION "lab14_1"
+  LANGUAGES CXX)
+
+add_executable(lab14_1 main.cpp shape.cpp shape.h)

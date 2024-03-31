@@ -1,0 +1,9 @@
+﻿CMAKE_MINIMUM_REQUIRED( VERSION 3.8 )
+
+procjet(
+   lab13_1
+  VERSION 0.1
+  DESCRIPTION "lab13_1"
+  LANGUAGES CXX)
+
+add_executable(lab13_1 main.cpp animal.cpp animal.h)
